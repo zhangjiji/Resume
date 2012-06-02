@@ -1,11 +1,20 @@
-\documentclass{article}
-\usepackage{CJK}
+\documentclass[11pt,a4paper]{article}
+\usepackage{xltxtra}
+\usepackage{fontspec}
+\setmainfont[BoldFont=Adobe Heiti Std]{Adobe Song Std}
+\setsansfont[BoldFont=Adobe Heiti Std]{STSong}
+\setmonofont{Monaco}
+
+\XeTeXlinebreaklocale "zh"
+\XeTeXlinebreakskip = 0pt plus 1pt minus 0.1pt
+\usepackage[top=1.2in,bottom=1.2in,left=1.2in,right=1in]{geometry}
+
 \usepackage{indentfirst}
+
 \begin{document}
-\begin{CJK*}{UTF8}{gbsn}
 
 \title{个人简历}
-\author{Zhe Zhang}
+\author{张 喆}
 
 \maketitle
 
@@ -13,7 +22,7 @@
 
 \section*{Profile}
 
-姓名: 张(吉吉) Zhang Zhe
+姓名: 张 喆
 
 生日: 1981年2月18日
 
@@ -115,5 +124,4 @@ Github账户: zhangjiji
 
 AI， 编译原理， 图形学， 数学， 基础算法 都感兴趣都希望能有长足发展与进步。
 
-\end{CJK*}
 \end{document}
